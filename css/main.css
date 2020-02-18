@@ -1,0 +1,170 @@
+/*****BASE STYLES*****/
+.body {
+  font-family: 'Karla', sans-serif;
+  color: #bedcfe;
+}
+#intro {
+  height: 126px;
+}
+#work {
+  height: 1600px;
+}
+#about {
+  height: 650px;
+}
+#contact {
+  height: 500px;
+}
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-image {
+  float: left;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/****INTRO****/
+#intro {
+  background: #9FB1BB;
+  border-bottom: 2px solid #693F3B;
+}
+#intro h1 {
+  padding: 10px 0px 55px 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 46px;
+  color: white;
+}
+nav {
+  float: right;
+  padding: 45px 25px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 80px;
+}
+
+/*****HEADER*****/
+header {
+  height: 800px;
+  background: url('../img/hero.jpg');
+  background-size: cover;
+}
+header h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 36px;
+  color: black;
+  clear: both;
+  padding: 20px 0px 0px 30px;
+}
+header h2 span {
+  color: white;
+  letter-spacing: 3px;
+}
+/***** WORK *****/
+#work .full-width {
+  padding: 50px 0;
+}
+#work .half-image {
+  margin-right: 45px;
+  clear: both;
+  padding: 50px 0;
+}
+#work h2 {
+  font-family:'Lato', sans-serif;
+  font-size: 34px;
+  color: #693F3B;
+  text-align: center;
+}
+#work img {
+
+  border: 1px solid #693F3B;
+}
+#work h3 {
+  font-family:'Lato', sans-serif;
+  color: #2C3B4F;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 50px 0;
+}
+#work p {
+  font-family: 'Karla', sans-serif;
+  color: #2C3B4F;
+  font-size: 18px;
+  margin: 0 auto;
+}
+/***** ABOUT *****/
+#about {
+  background: #405169;
+}
+#about .full-width {
+  padding: 50px 0;
+}
+#about h2 {
+  font-family:'Lato', sans-serif;
+  color: white;
+  font-size: 34px;
+  text-align: center;
+}
+#about img {
+  margin-left: 25px;
+  padding: 30px 0;
+}
+#about h3 {
+  font-family:'Lato', sans-serif;
+  font-size: 24px;
+  color: white;
+  padding: 30px 0;
+}
+#about p {
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+/*** CONTACT ***/
+#contact {
+  background: #2C3B4F;
+}
+#contact .full-width {
+  padding: 50px 0;
+}
+#contact h2 {
+  font-family:'Lato', sans-serif;
+  color: white;
+  font-size: 34px;
+  text-align: center;
+}
+#contact h3 {
+  font-family:'Lato', sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+#contact p {
+font-family: 'Karla', sans-serif;
+color: white;
+text-align: center;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul img {
+  padding-right: 66px;
+}
